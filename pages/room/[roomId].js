@@ -240,7 +240,7 @@ export default function TimerClient() {
                 })()}
                 <div className={styles.buttonGroup}>
                   <button onClick={() => handleDelete(timer.timerId)} className={styles.deleteButton}>
-                    <img src="/images/DELETE.png" alt="DELETEボタン" /> 
+                    <img src="/images/Delete.png" alt="DELETEボタン" /> 
                   </button>
                   
                   <button onClick={() => handleReset(timer.timerId)} className={styles.resetButton}>
