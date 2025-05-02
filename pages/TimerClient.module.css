@@ -1,0 +1,415 @@
+/* TimerClient.css */
+
+.container {
+  padding: 1.5rem;
+  max-width: 768px;
+  margin: 0 auto;
+  
+}
+
+.heading {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.description {
+  margin-bottom: 1rem;
+}
+
+.room-info {
+  margin-bottom: 1rem;
+}
+
+.input-field {
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  border-radius: 0.375rem;
+  margin-right: 0.5rem;
+  width: 200px;
+}
+
+
+  /* From Uiverse.io by asgardOP */ 
+.button {
+  cursor: pointer;
+  width: fit-content;
+  height: fit-content;
+  padding: 15px;
+  background-color: rgb(223, 223, 223);
+  border-left: 3px solid white;
+  border-top: 3px solid white;
+  border-right: 3px solid gray;
+  border-bottom: 3px solid gray;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.1rem;
+  font-weight: 900;
+  outline: 2px solid black;
+}
+
+.button:hover {
+  background-color: rgb(0, 197, 0);
+  color: white;
+  outline-color: white;
+  border-left: 3px solid rgb(0, 255, 0);
+  border-top: 3px solid rgb(0, 255, 0);
+  border-right: 3px solid green;
+  border-bottom: 3px solid green;
+}
+
+.button:active {
+  border-left: 3px solid green;
+  border-top: 3px solid green;
+  border-right: 3px solid rgb(0, 255, 0);
+  border-bottom: 3px solid rgb(0, 255, 0);
+}
+
+
+
+.button-blue {
+  background-color: #3b82f6;
+  color: white;
+}
+
+.button-blue:hover {
+  background-color: #2563eb;
+}
+
+.button-green {
+  background-color: #22c55e;
+  color: white;
+}
+
+.button-green:hover {
+  background-color: #16a34a;
+}
+
+.button-red {
+  background-color: #ef4444;
+  color: white;
+}
+
+.button-red:hover {
+  background-color: #dc2626;
+}
+
+.button-yellow {
+  background-color: #facc15;
+  color: white;
+}
+
+.button-yellow:hover {
+  background-color: #eab308;
+}
+
+.button-gray {
+  background-color: #6b7280;
+  color: white;
+}
+
+.button-gray:hover {
+  background-color: #4b5563;
+}
+
+.timer-card {
+  border: 1px solid #e70707;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.timer-id {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.note-input {
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  border-radius: 0.375rem;
+  margin-bottom: 0.5rem;
+}
+
+.timer-count {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.button-group {
+  display: flex;
+  gap: 0.5rem;
+}
+
+
+
+/*figmaから入れてみた*/
+/*
+.joinButton{
+  font-family: 'Comic Sans MS', sans-serif;
+
+box-sizing: border-box;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px;
+gap: 8px;
+
+
+
+background: #2C2C2C;
+border: 1px solid #2C2C2C;
+border-radius: 8px;
+
+
+box-shadow: 0 0 10px rgba(44, 44, 44, 0.5);
+
+transition: all 0.3s ease; 
+}
+
+
+.joinButton:hover {
+  font-family: 'Comic Sans MS', sans-serif;
+  box-shadow: 0 0 10px #2C2C2C, 0 0 20px #2C2C2C;
+  background: #3a3a3a; 
+  border-color: #3a3a3a;
+}
+  */
+
+
+/*Universeから入れてみた*/
+/* From Uiverse.io by asgardOP */ 
+
+/* .container{
+  font-family: "Courier New", Courier, monospace;
+} */
+
+
+.joinButton {
+  cursor: pointer;
+  width: fit-content;
+  height: fit-content;
+  padding: 7px;
+  background-color: rgb(223, 223, 223);
+  border-left: 3px solid white;
+  border-top: 3px solid white;
+  border-right: 3px solid gray;
+  border-bottom: 3px solid gray;
+  /* font-family: "Courier New", Courier, monospace; */
+  font-family: inherit;
+  font-size: 1.1rem;
+  font-weight: 900;
+  outline: 2px solid black;
+}
+
+.joinButton:hover {
+  background-color: rgb(0, 197, 0);
+  color: white;
+  outline-color: white;
+  border-left: 3px solid rgb(0, 255, 0);
+  border-top: 3px solid rgb(0, 255, 0);
+  border-right: 3px solid green;
+  border-bottom: 3px solid green;
+}
+
+.joinButton:active {
+  border-left: 3px solid green;
+  border-top: 3px solid green;
+  border-right: 3px solid rgb(0, 255, 0);
+  border-bottom: 3px solid rgb(0, 255, 0);
+}
+
+.input{
+  width: fit-content;
+  height: fit-content;
+  padding: 7px;
+  background-color: rgb(223, 223, 223);
+  border-left: 3px solid white;
+  border-top: 3px solid white;
+  border-right: 3px solid gray;
+  border-bottom: 3px solid gray;
+  /* font-family: "Courier New", Courier, monospace; */
+  font-family: inherit;
+  font-size: 1.1rem;
+  font-weight: 900;
+  outline: 2px solid black;
+
+}
+
+
+.leaveButton,.createButton{
+  cursor: pointer;
+  width: fit-content;
+  height: fit-content;
+  padding: 8px 10px;
+  margin: 10px 10px;
+  background-color: #dfdfdf;
+  border: 3px solid;
+  border-color: white gray gray white;
+  /* font-family: "Courier New", Courier, monospace; */
+  font-family: "Pixelify Sans", DotGothic16, sans-serif;
+  font-size: 1.1rem;
+  font-weight: 900;
+  outline: 2px solid black;
+  box-shadow: 2px 2px 0 #888;
+  image-rendering: pixelated;
+  display: inline-block;
+}
+
+.leaveButton:hover,.createButton:hover {
+  background-color: rgb(0, 197, 0);
+  color: white;
+  outline-color: white;
+  border-left: 3px solid rgb(0, 255, 0);
+  border-top: 3px solid rgb(0, 255, 0);
+  border-right: 3px solid green;
+  border-bottom: 3px solid green;
+}
+
+.leaveButton:active,.createButton:active {
+  border-left: 3px solid green;
+  border-top: 3px solid green;
+  border-right: 3px solid rgb(0, 255, 0);
+  border-bottom: 3px solid rgb(0, 255, 0);
+}
+
+.createButton{
+  border-radius: 50px;
+}
+
+
+/* google fontsから入れてみた */
+/* body {
+  font-family: 'DotGothic16', sans-serif;
+} */
+
+/* 追加したやつ */
+.roomId{
+  
+  margin:5px;
+
+  width: fit-content;
+  height: fit-content;
+  padding: 8px;
+  margin:10px;
+  background-color: rgb(223, 223, 223);
+  border-left: 3px solid white;
+  border-top: 3px solid white;
+  border-right: 3px solid gray;
+  border-bottom: 3px solid gray;
+  /* font-family: "Courier New", Courier, monospace; */
+  font-family: inherit;
+  font-size: 1.2rem;
+  font-weight: 900;
+  outline: 2px solid black;
+  
+}
+
+.topBar{
+  display: flex;
+  align-items: center; /* 高さを揃える */
+  gap: 0rem;            /* 要素間の余白 */
+}
+
+/* タイマーの小数点以下を小さくするやつ */
+.fraction {
+  font-size: 0.7em;
+}
+
+
+.timerList{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.2rem; /* 各カードの間にスペース */
+  justify-content: flex-start; /* 左寄せ */
+}
+
+.timerCard{
+  margin:5px;
+
+  width: fit-content;
+  height: fit-content;
+  padding: 8px;
+  /* margin:10px; */
+  background-color: rgb(223, 223, 223);
+  border-left: 3px solid white;
+  border-top: 3px solid white;
+  border-right: 3px solid gray;
+  border-bottom: 3px solid gray;
+  /* font-family: "Courier New", Courier, monospace; */
+  font-family: inherit;
+  font-size: 1.2rem;
+  font-weight: 900;
+  outline: 2px solid black;
+}
+
+.noteInput{
+  font-family: inherit;
+  background-color: transparent; /* 背景を透明に */
+  border: none;                  /* 枠線を消す（必要なら） */
+  outline: none;                 /* フォーカス時の枠線を消す（必要なら） */
+  color: black;     
+}
+
+.timerCount{
+  margin: 0px;
+  font-family:  "DotGothic16", monospace;
+}
+
+.TimePart{
+  display: flex;
+  align-items: center; /* 高さを揃える */
+  gap: 1rem;            /* 要素間の余白 */
+}
+
+.startButton,.stopButton, .resetButton , .deleteButton{
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.startButton img ,.stopButton img, .resetButton img , .deleteButton img{
+  display: block;
+  width: 40px;
+  height: auto;
+  transition: filter 0.3s, box-shadow 0.3s;
+}
+
+.resetButton img {
+  width: 20px;
+  height: 20px;
+}
+
+.deleteButton img{
+  width: 30px;
+  height: 30px;
+}
+
+.buttonGroup{
+  display: flex;
+  align-items: center; /* 高さを揃える */
+  gap: 0.2rem;
+}
+
+
+
+.startButton:hover img ,.stopButton:hover img , .resetButton:hover img , .deleteButton:hover img{
+  filter: brightness(3.0);
+  /* box-shadow: 0 0 10px rgba(255, 255, 255, 0.8); */
+}
+
+
+.invisible {
+  visibility: hidden;
+  position: absolute;
+}
+
+.timerCount {
+  
+  min-width: 70px;
+  display: inline-block;
+  position: relative;
+}
