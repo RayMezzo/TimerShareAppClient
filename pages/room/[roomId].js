@@ -7,7 +7,8 @@ import React, { useEffect, useState } from 'react';
 import io from 'socket.io-client';
 import { useRouter } from 'next/router'; // Next.jsのuseRouterをインポート
 
-const socket = io('http://localhost:3001');
+const socketUrl = process.env.NEXT_PUBLIC_SOCKET_URL || 'http://localhost:3001';
+const socket = io(socketUrl);
 
 export default function TimerClient() {
   const [timers, setTimers] = useState({});
